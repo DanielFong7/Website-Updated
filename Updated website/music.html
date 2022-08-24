@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="A simple website to test my web developing skills">
+        <meta name="author" content="Daniel Fong">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+        <link href="main.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+        <title>A reactive website to test my skills</title>
+
+
+    </head>
+
+    <body>
+        <header>
+                        <!--Navigation Bar-->
+            <nav class="navbar navbar-expand-lg fixed-top">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="main.html"><i class="bi bi-fire" style="font-size: 3rem;"></i></a>
+
+                  
+
+ 
+
+                      <!--Toggle Down Meno-->
+                  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                      <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Music Page</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        
+                        <li>
+                          <a class="nav-link" href="about.html" style="font-size: 20px;">About Me</a>
+                        </li>
+                        <li>
+                          <a class="nav-link" href="hobby.html" style="font-size: 20px;">Hobbies</a>
+                        </li>
+                        <li>
+                          <a class="nav-link" href="music.html" style="font-size: 20px;">Music</a>
+                        </li>
+                        
+                      </ul>
+                      
+                    </div>
+                  </div>
+                </div>
+              </nav>
+        </header>
+
+    <main>
+
+       <div class="container mt-5">
+        <div class="row">
+          <div class="col-4 mt-2">
+              <h1>Music</h1>
+              <p>Here are some of the type of music that i listen too.</p>
+          </div>
+       </div>
+       <div class="container mt-4">
+        <div class="row">
+            <div class=" uspcol-sm-12 col-md-6 col-lg-4">
+
+                <div id="carouselExampleCaptions" class="carousel slide animate__animated animate__fadeInDown" data-bs-ride="false">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner ">
+                        <h6>Alternative Rock</h6>
+                      <div class="carousel-item active">
+                        <img src="images/bmth.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Bring Me The Horizon</h5>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/arc.jfif" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Architecs</h5>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/mcr.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>My Chemical Romance</h5>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+
+
+                  <div class="row mt-5 py-3">
+
+                    <div id="carousel2" class="carousel slide animate__animated animate__fadeInUp" data-bs-ride="false">
+                      <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carousel2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carousel2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      </div>
+                      <div class="carousel-inner">
+                          <h6>Rap</h6>
+                        <div class="carousel-item active">
+                          <img src="images/em.jpg" class="d-block w-100" alt="...">
+                          <div class="carousel-caption d-none d-md-block">
+                            <h5>Eminem</h5>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <img src="images/jl.jpg" class="d-block w-100" alt="...">
+                          <div class="carousel-caption d-none d-md-block">
+                            <h5>Joyner Lucas</h5>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <img src="images/jid.jpg" class="d-block w-100" alt="...">
+                          <div class="carousel-caption d-none d-md-block">
+                            <h5>J.I.D</h5>
+                          </div>
+                        </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carousel2" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+
+                  </div>
+            </div>
+
+            <div class="uspcol-sm-12 col-md-6 col-lg-4">
+
+              <div id="carousel3" class="carousel slide animate__animated animate__fadeInDown" data-bs-ride="false">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carousel3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carousel3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carousel3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <h6>Classic Rock</h6>
+                  <div class="carousel-item active">
+                    <img src="images/acdc.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>AC/DC</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/ml.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Metalica</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/lb.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Limp Bizkit</h5>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+
+              <div class="row mt-3 pt-3">
+
+                <div id="carousel4" class="carousel slide animate__animated animate__fadeInUp" data-bs-ride="false">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel4" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carousel4" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carousel4" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  </div>
+                  <div class="carousel-inner">
+                      <h6>Classical Music</h6>
+                    <div class="carousel-item active">
+                      <img src="images/vivaldi.jpg" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Vivaldi-Winter</h5>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/mozart.jpg" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Mozart-Turkish March</h5>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/bee.jpg" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Beethovan-Moonlight Sonata</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carousel4" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carousel4" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="uspcol-sm-12 col-md-6 col-lg-4">
+
+              <div id="carousel5" class="carousel slide animate__animated animate__fadeInDown" data-bs-ride="false">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carousel5" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carousel5" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carousel5" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <h6>R&B</h6>
+                  <div class="carousel-item active">
+                    <img src="images/joji.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Joji</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/jz.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Jeremy Zucker</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/jb.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>John Bellion</h5>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel5" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel5" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+              <div class="row mt-5 pt-3">
+                <div id="carousel6" class="carousel slide animate__animated animate__fadeInUp" data-bs-ride="false">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel6" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carousel6" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carousel6" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  </div>
+                  <div class="carousel-inner mt-4">
+                      <h6>EDM</h6>
+                    <div class="carousel-item active">
+                      <img src="images/dp.jpg" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Daft Punk</h5>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/shm.jpg" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Swedish House Mafia</h5>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/av.png" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Avicii</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carousel6" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carousel6" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="uspcol-sm-12 col-md-6 col-lg-4">
+
+              <div id="carousel7" class="carousel slide animate__animated animate__fadeInDown" data-bs-ride="false">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carousel7" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carousel7" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carousel7" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <h5>Pop Rock</h5>
+                  <div class="carousel-item active">
+                    <img src="images/para.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Paramore</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/al.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Avril Lavigne</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/fob.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Fall Out Boy</h5>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel7" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel7" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+              <div class="row mt-5 pt-2">
+
+                <div id="carousel8" class="carousel slide animate__animated animate__fadeInUp" data-bs-ride="false">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel8" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carousel8" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carousel8" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  </div>
+                  <div class="carousel-inner">
+                      <h6>J-POP</h6>
+                    <div class="carousel-item active">
+                      <img src="images/tg.jpg" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Tory Kitajima</h5>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/mk.jpg" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Mariya Takeuchi</h5>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/minami.jpg" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Minami</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carousel8" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carousel8" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+            </div> 
+        </div>
+
+        <div class="container mt-5 animate__animated animate__fadeInUp">
+          <div class="row">
+            <div class="col">
+              <iframe style="border-radius:12px;width:100%;height:380px;" src="https://open.spotify.com/embed/playlist/56JRtrKw3MLJxZnghRowBN?utm_source=generator" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+            </div>
+          </div>
+        </div>
+       </div>
+       </div>
+    </main>
+
+
+
+
+
+
+    
+
+        <footer class="footer-container bg-dark text-center text-white">
+            <!-- Grid container -->
+            <div class="row">
+              <!-- Section: Social media -->
+              <section class="mb-2">
+                <h2>Test</h2>
+                <!-- Facebook -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                  ><i class="bi bi-facebook"></i
+                ></a>
+          
+                <!-- Twitter -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                  ><i class="bi bi-twitter"></i
+                ></a>
+          
+                <!-- Google -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                  ><i class="bi bi-spotify"></i
+                ></a>
+          
+                <!-- Instagram -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                  ><i class="bi bi-instagram"></i
+                ></a>
+          
+                <!-- Linkedin -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                  ><i class="bi bi-linkedin"></i
+                ></a>
+          
+                <!-- Github -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                  ><i class="bi bi-github"></i
+                ></a>
+              </section>
+              <!-- Section: Social media -->
+            </div>
+            <!-- Grid container -->
+          
+            <!-- Copyright -->
+            <div class="text-center bg-dark px-3" style="background-color: rgba(0, 0, 0, 0.2);">
+              © 2022 Copyright:
+              <a class="text-white">Daniel Fong</a>
+            </div>
+            <!-- Copyright -->
+          </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+    </body>
+
+</html>

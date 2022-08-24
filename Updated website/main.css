@@ -1,0 +1,91 @@
+@media only screen (min-width: 768px) and (max-width: 959px){
+    
+    .colheader {
+
+    }
+    
+    
+    
+    
+    
+    
+    
+    #firstSec {
+        width: 100% !important;
+        
+    }
+    #secondSec {
+        margin-bottom: 4.5vw;
+        
+    }
+    
+    
+    
+    
+    
+     
+    
+    .container {
+        min-height: calc(100vh - 70px);
+        justify-content: flex-start;
+        
+        margin-bottom: 0px;
+        
+        display: block;
+        
+        
+    
+    }
+    
+    
+    
+    .footer-container {
+        color: blue;
+        background: white;
+        font-size: 15px;
+        width: auto;
+        
+        text-align: center;
+        }
+
+
+}
+
+h1 {
+    color: #1183d6;
+    font-family: 'Anton', sans-serif;
+    font-size: 50px;
+}
+h2 {
+    font-family: 'Shadows Into Light', cursive;
+}
+h5 {
+    color: #1183d6;
+}
+p {
+    color: #1183d6;
+    font-family: 'Shadows Into Light', cursive;
+}
+h6 {
+    color: #1183d6;
+    font-size: x-large;
+    font-family: 'Anton', sans-serif;
+}
+
+div {
+    display: block;
+}
+
+body {
+    background-size: cover;
+    background-image: url(images/orange.jpg);
+    background-repeat: no-repeat;
+    margin: 0;
+
+}
+
+
+
+
+
+  
